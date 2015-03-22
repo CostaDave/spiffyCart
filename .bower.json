@@ -1,6 +1,6 @@
 {
-  "name": "niftyCart",
-  "homepage": "https://github.com/CostaDave/niftyCart",
+  "name": "spiffyCart",
+  "homepage": "https://github.com/CostaDave/spiffyCart",
   "authors": [
     "Dave Ryan <daveryan187@gmail.com>"
   ],
@@ -8,9 +8,9 @@
     "amd"
   ],
   "main": [
-    "src/niftyCart.js",
-    "src/niftyCart.directives.js",
-    "src/niftyCart.services.js"
+    "src/spiffyCart.js",
+    "src/spiffyCart.directives.js",
+    "src/spiffyCart.services.js"
   ],
   "license": "MIT",
   "ignore": [
@@ -31,7 +31,7 @@
     "branch": "master",
     "commit": "1452759dc6f62e222c8a2dfdf388ea95ce4b3337"
   },
-  "_source": "git@github.com:CostaDave/niftyCart.git",
+  "_source": "git@github.com:CostaDave/spiffyCart.git",
   "_target": "*",
-  "_originalSource": "git@github.com:CostaDave/niftyCart.git"
+  "_originalSource": "git@github.com:CostaDave/spiffyCart.git"
 }

@@ -10,7 +10,7 @@
     "grunt-contrib-concat": "~0.4.0",
     "grunt-contrib-uglify": "~0.5.0"
   },
-  "name": "niftyCart",
+  "name": "spiffyCart",
   "description": "This is the readme",
   "version": "0.0.1",
   "main": "Gruntfile.js",
@@ -29,10 +29,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:CostaDave/niftyCart.git"
+    "url": "git@github.com:CostaDave/spiffyCart.git"
   },
   "bugs": {
-    "url": "https://github.com/CostaDave/niftyCart/issues"
+    "url": "https://github.com/CostaDave/spiffyCart/issues"
   },
-  "homepage": "https://github.com/CostaDave/niftyCart"
+  "homepage": "https://github.com/CostaDave/spiffyCart"
 }

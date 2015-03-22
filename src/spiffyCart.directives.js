@@ -1,8 +1,8 @@
 /* global angular: false */
 
-angular.module('niftyCart.directives', [])
+angular.module('spiffyCart.directives', [])
 
-.directive('niftycartCartContents', ['niftyCartService', function(niftyCartService){
+.directive('spiffyCartCartContents', ['spiffyCartService', function(spiffyCartService){
 	'use strict';
 
 	return {
@@ -12,7 +12,7 @@ angular.module('niftyCart.directives', [])
 		},
 		link: function (scope, element, attrs) {
 			scope.localcart = {};
-			scope.$on('niftyCart:cartUpdate', function (newVal, cart) {
+			scope.$on('spiffyCart:cartUpdate', function (newVal, cart) {
 				scope.$apply(function (){
 					scope.localcart = cart
 				})
@@ -22,7 +22,7 @@ angular.module('niftyCart.directives', [])
 	}
 }])
 
-.directive('niftycartAddtocart', [function(){
+.directive('spiffyCartAddtocart', [function(){
 	'use strict';
 
 	return {

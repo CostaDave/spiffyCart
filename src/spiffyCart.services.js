@@ -1,7 +1,7 @@
 /* global angular: false */
 
-angular.module('niftyCart.services', [])
-.service('niftyCartService', ['$rootScope', 'localStorageService', function($rootScope, localStorageService){
+angular.module('spiffyCart.services', [])
+.service('spiffyCartService', ['$rootScope', 'localStorageService', function($rootScope, localStorageService){
 	'use strict';
 
 	var cartItem = function (attrs) {
@@ -160,7 +160,7 @@ angular.module('niftyCart.services', [])
 
 		localStorageService.set('cart', this.cart);
 
-		$rootScope.$broadcast('niftyCart:cartUpdate', this.cart);
+		$rootScope.$broadcast('spiffyCart:cartUpdate', this.cart);
 	};
 
 
