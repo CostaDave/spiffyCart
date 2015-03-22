@@ -1,2 +1,2 @@
-# niftyCart
-This is the readme
+# spiffyCart
+
