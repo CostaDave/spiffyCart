@@ -1,0 +1,37 @@
+{
+  "name": "niftyCart",
+  "homepage": "https://github.com/CostaDave/niftyCart",
+  "authors": [
+    "Dave Ryan <daveryan187@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "main": [
+    "src/niftyCart.js",
+    "src/niftyCart.directives.js",
+    "src/niftyCart.services.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-local-storage": "~0.1.5",
+    "angular": "~1.3.14"
+  },
+  "_release": "1452759dc6",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1452759dc6f62e222c8a2dfdf388ea95ce4b3337"
+  },
+  "_source": "git@github.com:CostaDave/niftyCart.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:CostaDave/niftyCart.git"
+}
